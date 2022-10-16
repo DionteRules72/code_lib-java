@@ -1,0 +1,13 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\selle\\OneDrive\\Documents\\Fall2126_Semester_2022\\GCIS-124_SoftwareDev\\javafx-sdk-19\\lib\\javafx.base.jar",
+        "c:\\Users\\selle\\OneDrive\\Documents\\Fall2126_Semester_2022\\GCIS-124_SoftwareDev\\javafx-sdk-19\\lib\\javafx.controls.jar",
+        "c:\\Users\\selle\\OneDrive\\Documents\\Fall2126_Semester_2022\\GCIS-124_SoftwareDev\\javafx-sdk-19\\lib\\javafx.fxml.jar",
+        "c:\\Users\\selle\\OneDrive\\Documents\\Fall2126_Semester_2022\\GCIS-124_SoftwareDev\\javafx-sdk-19\\lib\\javafx.graphics.jar",
+        "c:\\Users\\selle\\OneDrive\\Documents\\Fall2126_Semester_2022\\GCIS-124_SoftwareDev\\javafx-sdk-19\\lib\\javafx.media.jar",
+        "c:\\Users\\selle\\OneDrive\\Documents\\Fall2126_Semester_2022\\GCIS-124_SoftwareDev\\javafx-sdk-19\\lib\\javafx.swing.jar",
+        "c:\\Users\\selle\\OneDrive\\Documents\\Fall2126_Semester_2022\\GCIS-124_SoftwareDev\\javafx-sdk-19\\lib\\javafx.web.jar",
+        "c:\\Users\\selle\\OneDrive\\Documents\\Fall2126_Semester_2022\\GCIS-124_SoftwareDev\\javafx-sdk-19\\lib\\javafx-swt.jar"
+    ]
+}

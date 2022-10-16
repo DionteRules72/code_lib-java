@@ -1,0 +1,35 @@
+SETTINGS FOR JAVAFX:
+
+STEPS:
+1.) add ./javafx-sdk-19/lib/*.jar files to ReferencedLibraries in JAVA PROJECTS
+2.) copy Boilerplate.java and Modify.
+
+CODE IN [ File/Preferences/Settings:vmargs/ ]
+{
+    "workbench.colorTheme": "Visual Studio Dark",
+    "java.debug.settings.vmArgs": "--module-path \"C:\\Users\\selle\\OneDrive\\Documents\\Fall2126_Semester_2022\\GCIS-124_SoftwareDev\\javafx-sdk-19\\lib\" --add-modules javafx.controls,javafx.fxml,javafx.media",
+    "java.jdt.ls.vmargs": "",
+}
+
+CODE IN [ .vscode/settings.json ]
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\selle\\OneDrive\\Documents\\Fall2126_Semester_2022\\GCIS-124\\javafx-sdk-19\\lib\\javafx.base.jar",
+        "c:\\Users\\selle\\OneDrive\\Documents\\Fall2126_Semester_2022\\GCIS-124\\javafx-sdk-19\\lib\\javafx.controls.jar",
+        "c:\\Users\\selle\\OneDrive\\Documents\\Fall2126_Semester_2022\\GCIS-124\\javafx-sdk-19\\lib\\javafx.fxml.jar",
+        "c:\\Users\\selle\\OneDrive\\Documents\\Fall2126_Semester_2022\\GCIS-124\\javafx-sdk-19\\lib\\javafx.graphics.jar",
+        "c:\\Users\\selle\\OneDrive\\Documents\\Fall2126_Semester_2022\\GCIS-124\\javafx-sdk-19\\lib\\javafx.media.jar",
+        "c:\\Users\\selle\\OneDrive\\Documents\\Fall2126_Semester_2022\\GCIS-124\\javafx-sdk-19\\lib\\javafx.swing.jar",
+        "c:\\Users\\selle\\OneDrive\\Documents\\Fall2126_Semester_2022\\GCIS-124\\javafx-sdk-19\\lib\\javafx.web.jar",
+        "c:\\Users\\selle\\OneDrive\\Documents\\Fall2126_Semester_2022\\GCIS-124\\javafx-sdk-19\\lib\\javafx-swt.jar",
+        "c:\\Users\\selle\\OneDrive\\Documents\\Fall2126_Semester_2022\\GCIS-124_SoftwareDev\\javafx-sdk-19\\lib\\javafx.base.jar",
+        "c:\\Users\\selle\\OneDrive\\Documents\\Fall2126_Semester_2022\\GCIS-124_SoftwareDev\\javafx-sdk-19\\lib\\javafx.controls.jar",
+        "c:\\Users\\selle\\OneDrive\\Documents\\Fall2126_Semester_2022\\GCIS-124_SoftwareDev\\javafx-sdk-19\\lib\\javafx.fxml.jar",
+        "c:\\Users\\selle\\OneDrive\\Documents\\Fall2126_Semester_2022\\GCIS-124_SoftwareDev\\javafx-sdk-19\\lib\\javafx.graphics.jar",
+        "c:\\Users\\selle\\OneDrive\\Documents\\Fall2126_Semester_2022\\GCIS-124_SoftwareDev\\javafx-sdk-19\\lib\\javafx.media.jar",
+        "c:\\Users\\selle\\OneDrive\\Documents\\Fall2126_Semester_2022\\GCIS-124_SoftwareDev\\javafx-sdk-19\\lib\\javafx.swing.jar",
+        "c:\\Users\\selle\\OneDrive\\Documents\\Fall2126_Semester_2022\\GCIS-124_SoftwareDev\\javafx-sdk-19\\lib\\javafx.web.jar",
+        "c:\\Users\\selle\\OneDrive\\Documents\\Fall2126_Semester_2022\\GCIS-124_SoftwareDev\\javafx-sdk-19\\lib\\javafx-swt.jar"
+    ]
+}
